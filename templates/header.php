@@ -1,5 +1,6 @@
 <?php
-include_once "config/url.php"
+include_once "config/url.php";
+include_once "config/connection.php";
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +26,7 @@ include_once "config/url.php"
             <div>
                 <div class="navbar-nav">
                     <a href="<?=$BASE_URL?>index.php" class="nav-link active" id="home-link">Agenda</a>
-                    <a href="<?=$BASE_URL?>create.php" class="nav-link active" id="home-link">Contato</a>
+                    <a href="<?=$BASE_URL?>create.php" class="nav-link active" id="home-link">Adicionar contato</a>
                 </div>
             </div>
         </nav>
